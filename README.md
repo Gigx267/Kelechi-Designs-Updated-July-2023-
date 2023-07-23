@@ -1,2 +1,3 @@
 # Kelechi-Designs-Updated-July-2023-
 Writing Codes is a lifestyle for me as I have proven to have a true passion for the Arts of Web Design while collaborating with various companies and business start ups to create an online atmosphere As an African web developer, I am passionate about using technology to improve the lives of people in my community and beyond. 
+I go by Kelechi Charles Nwachukwu a Full Stack Web Developer based in Abuja Nigeria, as African web developer with a passion for creating dynamic and engaging websites i have over 3 years of experience in the industry and have worked with clients from all over the nation . My expertise includes front-end development, back-end development, Deployement, and Web management
