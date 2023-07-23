@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+   
+
+    <title>Kelechi Designs </title>
+
+
+
+ <!-- Favicons -->
+ <link href="l6.PNG" rel="icon">
+ <link href="index.html" rel="apple-touch-icon">
+
+    <!-- Additional CSS Files -->
+
+
+
+  </head>
+
+
+
+<section class="showcase">
+    <header>
+      <h2 class="logo"> TALES OF A SOFTWARE PROGRAMMER  </h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="https://traversymedia.com/downloads/videos/explore.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2> <br> <br>My love hate relationship with react  </h2> 
+      <h3>  </h3>
+      <p>
+        The web development community has its own little quirks. Hating other programming languages just happens to be one. It's fun to try and take down an entire language because of some weirdness you found one time. My personal issue just has to do with react framework most developers don't seriously hate other languages. It's almost like a game we play. Trying to convince someone that our language is better for an application than theirs can be entertaining.I have not done a serious application with it. I disliked the syntax with everything in one file, however I think if I'd start it again I'd have a different opinion . While React has many advantages, it's essential to be aware of its disadvantages as well. Keep in mind that some of these points may have been addressed or improved in newer versions or updates of React. Here are some potential disadvantages:
+        Complexity for Beginners:
+        <br><br>React's learning curve can be steep for those new to web development or JavaScript. Understanding concepts like JSX, components, state management, and lifecycle methods may take some time to grasp fully.
+        Tooling Overhead:
+        Building React applications often involves integrating various build tools like Webpack or Babel to transpile and bundle code. Setting up the development environment can be intimidating, especially for beginners.
+        Performance Overhead:<br>
+        React's virtual DOM allows efficient updates, but it can introduce some performance overhead, especially in large and complex applications
+        Despite these disadvantages, React remains a powerful and widely adopted framework in the web development community. Many of these drawbacks can be mitigated through careful planning, proper architectural decisions, and the use of additional libraries and tools as needed.
+        However, there are several alternatives that you can consider based on your specific needs and preferences.<br> <br>Keep in mind that the popularity and features of these alternatives might have changed since my last update. Here are some alternatives to React.js:
+
+       <br> Angular: Developed and maintained by Google, Angular is a full-fledged front-end framework. It uses TypeScript and offers a robust set of tools and features for building large-scale applications.
+       <br>
+       <br> Vue.js: Vue.js is a progressive JavaScript framework that is often compared to React in terms of functionality. It is lightweight, easy to integrate, and offers a gentle learning curve.
+       <br>
+       <br> Svelte: Svelte is a compile-time framework that converts your components into highly efficient JavaScript during the build process. It aims to reduce the amount of runtime overhead that other frameworks have.
+       <br>
+       <br> Ember.js: Ember.js is a full-featured framework designed for ambitious web applications. It provides a strong set of conventions and features for building complex projects.
+       <br>
+       <br>  Preact: Preact is a lightweight alternative to React.js. It offers a similar API to React and is designed to be compatible with existing React applications.
+       <br>
+       <br> Backbone.js: Backbone.js is a lightweight framework that provides the structure needed for web applications. It doesn't offer the same level of feature-rich components as React or Angular, but it can be a good choice for smaller projects or when you need more flexibility.
+       <br>
+       <br> Riot.js: Riot.js is a simple and lightweight library for building user interfaces. It is easy to integrate into existing projects and can be a good option for smaller applications.
+       <br>
+       <br> Mithril: Mithril is a small and fast client-side framework that is designed to be easy to learn and use.
+       <br>
+       <br> Inferno: Inferno is an extremely fast and lightweight alternative to React. It aims to provide a similar API to React while prioritizing performance.
+       <br>
+       <br>Polymer: Polymer is a library developed by Google that focuses on building reusable web components. It is well-suited for building component-based web applications
+      </p>
+      <a href="blog3.html">Back </a>
+    </div>
+    <ul class="social">
+     
+       
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Projects.html">Projects </a></li>
+     
+      <li><a href="blog3.html">Blog</a></li>
+      <li><a href="index.html">Contact</a></li>
+    </ul>
+  </div>
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo
+{
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.toggle
+{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+.toggle.active
+{
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+}
+.showcase
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
+}
+.showcase.active
+{
+  right: 300px;
+}
+
+.showcase video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #03a9f4;
+  mix-blend-mode: overlay;
+}
+.text
+{
+  position: relative;
+  z-index: 10;
+}
+
+.text h2
+{
+  font-size: 5em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text h3
+{
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text p
+{
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+.text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+}
+.social
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+.menu
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul
+{
+  position: relative;
+}
+.menu ul li
+{
+  list-style: none;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+.menu ul li a:hover
+{
+  color: #03a9f4; 
+}
+
+@media (max-width: 991px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 40px;
+  }
+  .text h2
+  {
+    font-size: 3em;
+  }
+  .text h3
+  {
+    font-size: 2em;
+  }
+}
+
+
+  </style>
+  <script>
+
+const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>

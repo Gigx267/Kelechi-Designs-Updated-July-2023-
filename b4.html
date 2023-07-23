@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+   
+
+    <title>Kelechi Designs </title>
+
+
+
+ <!-- Favicons -->
+ <link href="l6.PNG" rel="icon">
+ <link href="index.html" rel="apple-touch-icon">
+
+    <!-- Additional CSS Files -->
+
+
+
+  </head>
+
+
+<section class="showcase">
+    <header>
+      <h2 class="logo"> TALES OF A SOFTWARE PROGRAMMER  </h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="https://traversymedia.com/downloads/videos/explore.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2> <br><br>Find Inspirations  </h2> 
+      <h3> <br>Exploring The Frontend  World</h3>
+      <p>As a frontend developer, finding inspiration is essential to stay motivated, improve your skills,
+         and create innovative designs. Here are some effective ways to find inspiration.Remember that
+          finding inspiration is a continuous process. Keep an open mind, stay curious, and don't hesitate to experiment with new ideas. As you immerse yourself in the frontend development community
+          you'll discover unique approaches and creative solutions that will enrich your work.
+
+          <br><br>
+          Follow Designers and Developers on Social Media: Twitter, Instagram, and LinkedIn are great platforms to follow talented designers, developers, and web agencies. They often share their work, ideas, and insights, which can spark your creativity.
+          <br><br>
+          GitHub Repositories: Explore open-source projects on GitHub to understand different coding styles, architecture patterns, and how developers tackle real-world problems.
+          <br><br>
+          Reflect on Past Projects: Look back at your previous work and see how you've grown. Identify areas for improvement and challenge yourself to try new techniques.
+
+
+          <br><br>
+          Look Outside the Tech Industry: Inspiration can come from various sources, not just tech-related ones. Explore art, architecture, nature, and other creative fields to get fresh ideas.
+          <br><br>
+          Check Out Website Showcases: Websites like CSS Design Awards, SiteInspire, and Webby Awards showcase visually stunning and innovative websites. Analyze their designs and see what elements stand out.
+          <br><br>
+          Check Out Website Showcases: Websites like CSS Design Awards, SiteInspire, and Webby Awards showcase visually stunning and innovative websites. Analyze their designs and see what elements stand out.
+          <br><br>
+          Experiment with CodePen: CodePen is a platform where developers share front-end experiments and creations. You can learn from others' projects and even create your experiments.
+          <br><br>
+          Participate in Online Communities: Join forums, subreddits (e.g., r/Frontend, r/web_design), and online developer communities (e.g., Stack Overflow) to engage with fellow developers, share ideas, and learn from others.
+        <br><br>
+        </p>
+      <a href="blog3.html">Back </a>
+    </div>
+    <ul class="social">
+     
+       
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Projects.html">Projects </a></li>
+     
+      <li><a href="blog3.html">Blog</a></li>
+      <li><a href="index.html">Contact</a></li>
+    </ul>
+  </div>
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo
+{
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.toggle
+{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+.toggle.active
+{
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+}
+.showcase
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
+}
+.showcase.active
+{
+  right: 300px;
+}
+
+.showcase video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #03a9f4;
+  mix-blend-mode: overlay;
+}
+.text
+{
+  position: relative;
+  z-index: 10;
+}
+
+.text h2
+{
+  font-size: 5em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text h3
+{
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text p
+{
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+.text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+}
+.social
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+.menu
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul
+{
+  position: relative;
+}
+.menu ul li
+{
+  list-style: none;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+.menu ul li a:hover
+{
+  color: #03a9f4; 
+}
+
+@media (max-width: 991px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 40px;
+  }
+  .text h2
+  {
+    font-size: 3em;
+  }
+  .text h3
+  {
+    font-size: 2em;
+  }
+}
+
+
+  </style>
+  <script>
+
+const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
